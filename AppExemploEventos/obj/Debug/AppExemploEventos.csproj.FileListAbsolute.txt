@@ -24,3 +24,16 @@ C:\Users\2023102060049\Downloads\AppExemploEventos\AppExemploEventos\AppExemploE
 C:\Users\2023102060049\Downloads\AppExemploEventos\AppExemploEventos\AppExemploEventos\obj\Debug\AppExemploEventos.csproj.CoreCompileInputs.cache
 C:\Users\2023102060049\Downloads\AppExemploEventos\AppExemploEventos\AppExemploEventos\obj\Debug\AppExemploEventos.exe
 C:\Users\2023102060049\Downloads\AppExemploEventos\AppExemploEventos\AppExemploEventos\obj\Debug\AppExemploEventos.pdb
+F:\AppExemploEventos\AppExmplosAlertas\AppExemploEventos\bin\Debug\AppExemploEventos.exe.config
+F:\AppExemploEventos\AppExmplosAlertas\AppExemploEventos\bin\Debug\AppExemploEventos.exe
+F:\AppExemploEventos\AppExmplosAlertas\AppExemploEventos\bin\Debug\AppExemploEventos.pdb
+F:\AppExemploEventos\AppExmplosAlertas\AppExemploEventos\obj\Debug\AppExemploEventos.csproj.AssemblyReference.cache
+F:\AppExemploEventos\AppExmplosAlertas\AppExemploEventos\obj\Debug\AppExemploEventos.csproj.SuggestedBindingRedirects.cache
+F:\AppExemploEventos\AppExmplosAlertas\AppExemploEventos\obj\Debug\AppExemploEventos.Form1.resources
+F:\AppExemploEventos\AppExmplosAlertas\AppExemploEventos\obj\Debug\AppExemploEventos.Formulario.FormCalculo.resources
+F:\AppExemploEventos\AppExmplosAlertas\AppExemploEventos\obj\Debug\AppExemploEventos.Formulario.FormMensagem.resources
+F:\AppExemploEventos\AppExmplosAlertas\AppExemploEventos\obj\Debug\AppExemploEventos.Properties.Resources.resources
+F:\AppExemploEventos\AppExmplosAlertas\AppExemploEventos\obj\Debug\AppExemploEventos.csproj.GenerateResource.cache
+F:\AppExemploEventos\AppExmplosAlertas\AppExemploEventos\obj\Debug\AppExemploEventos.csproj.CoreCompileInputs.cache
+F:\AppExemploEventos\AppExmplosAlertas\AppExemploEventos\obj\Debug\AppExemploEventos.exe
+F:\AppExemploEventos\AppExmplosAlertas\AppExemploEventos\obj\Debug\AppExemploEventos.pdb

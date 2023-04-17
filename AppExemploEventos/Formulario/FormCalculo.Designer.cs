@@ -43,9 +43,10 @@
             // 
             this.lbLadoC.AutoSize = true;
             this.lbLadoC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLadoC.Location = new System.Drawing.Point(87, 379);
+            this.lbLadoC.Location = new System.Drawing.Point(65, 308);
+            this.lbLadoC.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbLadoC.Name = "lbLadoC";
-            this.lbLadoC.Size = new System.Drawing.Size(143, 25);
+            this.lbLadoC.Size = new System.Drawing.Size(117, 20);
             this.lbLadoC.TabIndex = 38;
             this.lbLadoC.Text = "RESULTADO";
             // 
@@ -53,9 +54,10 @@
             // 
             this.lbLadoB.AutoSize = true;
             this.lbLadoB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLadoB.Location = new System.Drawing.Point(82, 169);
+            this.lbLadoB.Location = new System.Drawing.Point(62, 137);
+            this.lbLadoB.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbLadoB.Name = "lbLadoB";
-            this.lbLadoB.Size = new System.Drawing.Size(110, 25);
+            this.lbLadoB.Size = new System.Drawing.Size(89, 20);
             this.lbLadoB.TabIndex = 37;
             this.lbLadoB.Text = "VALOR 2:";
             // 
@@ -63,71 +65,85 @@
             // 
             this.lbLadoA.AutoSize = true;
             this.lbLadoA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLadoA.Location = new System.Drawing.Point(82, 83);
+            this.lbLadoA.Location = new System.Drawing.Point(62, 67);
+            this.lbLadoA.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbLadoA.Name = "lbLadoA";
-            this.lbLadoA.Size = new System.Drawing.Size(110, 25);
+            this.lbLadoA.Size = new System.Drawing.Size(89, 20);
             this.lbLadoA.TabIndex = 36;
             this.lbLadoA.Text = "VALOR 1:";
             // 
             // btNovo
             // 
             this.btNovo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btNovo.Location = new System.Drawing.Point(396, 287);
+            this.btNovo.Location = new System.Drawing.Point(297, 233);
+            this.btNovo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btNovo.Name = "btNovo";
-            this.btNovo.Size = new System.Drawing.Size(242, 55);
+            this.btNovo.Size = new System.Drawing.Size(182, 45);
             this.btNovo.TabIndex = 35;
             this.btNovo.Text = "NOVO CÁLCULO";
             this.btNovo.UseVisualStyleBackColor = true;
+            this.btNovo.Click += new System.EventHandler(this.btNovo_Click);
             // 
             // btCalcular
             // 
             this.btCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCalcular.Location = new System.Drawing.Point(87, 287);
+            this.btCalcular.Location = new System.Drawing.Point(65, 233);
+            this.btCalcular.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btCalcular.Name = "btCalcular";
-            this.btCalcular.Size = new System.Drawing.Size(242, 55);
+            this.btCalcular.Size = new System.Drawing.Size(182, 45);
             this.btCalcular.TabIndex = 34;
             this.btCalcular.Text = "CALCULAR";
             this.btCalcular.UseVisualStyleBackColor = true;
+            this.btCalcular.Click += new System.EventHandler(this.btCalcular_Click);
             // 
             // txtResultado
             // 
             this.txtResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtResultado.Location = new System.Drawing.Point(87, 407);
+            this.txtResultado.Location = new System.Drawing.Point(65, 331);
+            this.txtResultado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(178, 34);
+            this.txtResultado.Size = new System.Drawing.Size(134, 28);
             this.txtResultado.TabIndex = 33;
+            this.txtResultado.TextChanged += new System.EventHandler(this.txtResultado_TextChanged);
             // 
             // txtValor2
             // 
             this.txtValor2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtValor2.Location = new System.Drawing.Point(87, 197);
+            this.txtValor2.Location = new System.Drawing.Point(65, 160);
+            this.txtValor2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtValor2.Name = "txtValor2";
-            this.txtValor2.Size = new System.Drawing.Size(178, 34);
+            this.txtValor2.Size = new System.Drawing.Size(134, 28);
             this.txtValor2.TabIndex = 32;
+            this.txtValor2.TextChanged += new System.EventHandler(this.txtValor2_TextChanged);
+            this.txtValor2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValor2_KeyPress);
             // 
             // txtValor1
             // 
             this.txtValor1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtValor1.Location = new System.Drawing.Point(87, 111);
+            this.txtValor1.Location = new System.Drawing.Point(65, 90);
+            this.txtValor1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtValor1.Name = "txtValor1";
-            this.txtValor1.Size = new System.Drawing.Size(178, 34);
+            this.txtValor1.Size = new System.Drawing.Size(134, 28);
             this.txtValor1.TabIndex = 31;
+            this.txtValor1.TextChanged += new System.EventHandler(this.txtValor1_TextChanged);
+            this.txtValor1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValor1_KeyPress);
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(9, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(764, 46);
+            this.label1.Size = new System.Drawing.Size(573, 37);
             this.label1.TabIndex = 39;
             this.label1.Text = "DIVISÃO";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FormCalculo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 481);
+            this.ClientSize = new System.Drawing.Size(600, 391);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbLadoC);
             this.Controls.Add(this.lbLadoB);
@@ -137,6 +153,7 @@
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.txtValor2);
             this.Controls.Add(this.txtValor1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormCalculo";
             this.Text = "FormCalculo";
             this.ResumeLayout(false);
